@@ -1,0 +1,41 @@
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.env
+/bin/
+/lib/
+/build/
+/dist/
+/*.egg-info/
+/.eggs/
+*.egg
+
+# Django-generated files
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/staticfiles/
+
+# Media files
+media/
+
+# Local development settings
+local_settings.py
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
